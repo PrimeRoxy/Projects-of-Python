@@ -1,3 +1,7 @@
+# This is a financial expert chatbot that specializes in real estate investment and negotiation
+|
+|
+|
 # The code starts by importing the necessary libraries.
 import openai
 import gradio
@@ -5,7 +9,7 @@ import gradio
 #  so that anyone can use it, anywhere!
 
 
-# it defines an openai API key that will be used to authenticate with the OpenAI  platform.
+# it defines an openai API key that will be used to authenticate with the OpenAI platform.
 openai.api_key = "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"
 
 
