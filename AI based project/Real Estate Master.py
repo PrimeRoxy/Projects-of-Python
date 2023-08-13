@@ -6,16 +6,16 @@
 import openai
 import gradio
 # Gradio is the fastest way to demo your machine learning model with a friendly web interface
-#  so that anyone can use it, anywhere!
+#  so anyone can use it, anywhere!
 
 
-# it defines an openai API key that will be used to authenticate with the OpenAI platform.
-openai.api_key = "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"
+# It defines an openai API key that will be used to authenticate with the OpenAI platform.
+openai.api_key = " Replace_with_Your_API_KEY "
 
 
-# a list of messages is created and assigned to each role in the chatbot conversation.
+# A list of messages is created and assigned to each role in the chatbot conversation.
 messages = [{"role": "system",
-             "content": "You are a financial experts that specializes in real estate investment and negotiation"}]
+             "content": "You are a financial expert that specializes in real estate investment and negotiation"}]
 
 #  The first message is for when a user logs into the chatbot and starts talking to it.
 # Next, a function called CustomChatGPT is defined which takes in text as input and returns text 
