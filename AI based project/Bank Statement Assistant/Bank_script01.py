@@ -56,6 +56,7 @@ def main():
         documents = text_splitter.split_text(text=text)
 
         # Vectorize the documents and create a vectorstore
+        ## -------------ADD YOUR API KEY-----------
         api_key = 'YOUR API KEY'
 
         embeddings = OpenAIEmbeddings(openai_api_key=api_key)
