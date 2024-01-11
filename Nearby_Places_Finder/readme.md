@@ -27,14 +27,14 @@ Enter the specific type of place (press Enter for all places): Restaurant
 
 # Streamlit Web Application
 
-Ensure the required Python libraries are installed by running:
-pip install requests streamlit folium
+- Ensure the required Python libraries are installed by running:
+- ```bash
+  pip install requests streamlit folium
+# Replace YOUR_GOOGLE_MAPS_API_KEY in the nearby_places_finder.py script with your actual API key.
+```bash
+- streamlit run streamlit_nearby.py
 
-Replace YOUR_GOOGLE_MAPS_API_KEY in the nearby_places_finder.py script with your actual API key.
-
-streamlit run streamlit_nearby.py
-
-Access the app through your web browser and enter the location, radius, and specific type of place.
+# Access the app through your web browser and enter the location, radius, and specific type of place.
 
 Usage
 The Streamlit app provides a user-friendly interface to find nearby places. It includes a button to display the location of each place on an interactive map.
